@@ -110,6 +110,8 @@ For 24/7 operation independent of your Mac:
 - **Google Cloud (1 GB free)**: [docs/GCP_DEPLOY.md](docs/GCP_DEPLOY.md)
 - **Oracle Cloud**: [docs/ORACLE_DEPLOY.md](docs/ORACLE_DEPLOY.md)
 
+Repo: https://github.com/workwAIse/whatsapp_automation
+
 ## Notes / limitations
 
 - This uses **unofficial WhatsApp Web automation**. It can break if WhatsApp changes UI and may carry account risk.

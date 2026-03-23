@@ -62,7 +62,7 @@ sudo apt install -y nodejs
 **Option A: Git**
 
 ```bash
-git clone <your-repo-url> ~/mama_whatsapp
+git clone https://github.com/workwAIse/whatsapp_automation.git ~/mama_whatsapp
 cd ~/mama_whatsapp
 npm install
 ```
