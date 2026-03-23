@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.mama.whatsapp.summary</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/alexbuchel/projects/mama_whatsapp/launchd/run-summary.sh</string>
+    </array>
+
+    <!-- Run daily at 21:05 local time -->
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>21</integer>
+      <key>Minute</key>
+      <integer>5</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/mama_whatsapp_summary.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/mama_whatsapp_summary.err.log</string>
+  </dict>
+</plist>

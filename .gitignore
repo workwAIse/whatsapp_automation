@@ -1,0 +1,11 @@
+.data/
+.wa-profile/
+.wa-session/
+.wwebjs_cache/
+dist/
+node_modules/
+.env
+.env.*
+*.log
+*.sqlite
+tests/*.js
